@@ -19,7 +19,7 @@ const Index = () => {
             {/* Title */}
             <div className="space-y-4">
               <h1 className="font-pixel text-xl md:text-3xl lg:text-4xl neon-text tracking-wider">
-                TIME_TRAVELER.DEV
+                ANURAG.DEV
               </h1>
               <p className="font-mono text-lg md:text-2xl text-secondary">
                 &lt;FULL_STACK_DEVELOPER /&gt;
@@ -64,7 +64,7 @@ const Index = () => {
         <footer className="text-center mt-12 font-mono text-xs text-muted-foreground">
           <div className="pixel-border p-4 bg-card inline-block">
             <p>
-              <span className="text-primary">©</span> {new Date().getFullYear()} TIME_TRAVELER.DEV
+              <span className="text-primary">©</span> {new Date().getFullYear()} ANURAG.DEV
             </p>
             <p className="mt-2 text-accent">
               "Roads? Where we're going, we don't need roads."
