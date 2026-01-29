@@ -47,10 +47,11 @@ const Terminal = () => {
         { type: "output" as const, content: "║       AVAILABLE COMMANDS           ║" },
         { type: "output" as const, content: "╠════════════════════════════════════╣" },
         { type: "output" as const, content: "║ help    - Show this menu           ║" },
-        { type: "output" as const, content: "║ about   - About the developer      ║" },
+        { type: "output" as const, content: "║ about   - About Anurag             ║" },
         { type: "output" as const, content: "║ skills  - Technical skills         ║" },
         { type: "output" as const, content: "║ projects- View projects            ║" },
         { type: "output" as const, content: "║ contact - Contact information      ║" },
+        { type: "output" as const, content: "║ resume  - Download my resume       ║" },
         { type: "output" as const, content: "║ clear   - Clear terminal           ║" },
         { type: "output" as const, content: "║ 88mph   - Time travel easter egg!  ║" },
         { type: "output" as const, content: "╠════════════════════════════════════╣" },
@@ -83,16 +84,21 @@ const Terminal = () => {
     if (trimmedCmd === "about") {
       return [
         { type: "output" as const, content: "╔════════════════════════════════════╗" },
-        { type: "output" as const, content: "║         ABOUT THE DEVELOPER        ║" },
+        { type: "output" as const, content: "║           ABOUT ANURAG             ║" },
         { type: "output" as const, content: "╚════════════════════════════════════╝" },
         { type: "output" as const, content: "" },
-        { type: "output" as const, content: "A passionate developer and cinefile who" },
-        { type: "output" as const, content: "loves building amazing web experiences." },
+        { type: "output" as const, content: "Self-motivated software engineer from" },
+        { type: "output" as const, content: "Karnal, Haryana with a passion for" },
+        { type: "output" as const, content: "building full-stack applications." },
         { type: "output" as const, content: "" },
-        { type: "output" as const, content: "When not coding, you'll find me:" },
-        { type: "output" as const, content: "  → Watching Back to the Future (again)" },
-        { type: "output" as const, content: "  → Building time machines (metaphorically)" },
-        { type: "output" as const, content: "  → Exploring new technologies" },
+        { type: "output" as const, content: "EDUCATION:" },
+        { type: "output" as const, content: "  B.Tech CSE (2022-2026) - SJPMIET" },
+        { type: "output" as const, content: "" },
+        { type: "output" as const, content: "EXPERIENCE:" },
+        { type: "output" as const, content: "  → GeMind - Software Developer Intern" },
+        { type: "output" as const, content: "  → Rudra Infocom - Full Stack Developer" },
+        { type: "output" as const, content: "" },
+        { type: "output" as const, content: "And yes, a huge Back to the Future fan!" },
       ];
     }
 
@@ -103,14 +109,19 @@ const Terminal = () => {
         { type: "output" as const, content: "╚════════════════════════════════════╝" },
         { type: "output" as const, content: "" },
         { type: "output" as const, content: "LANGUAGES:" },
-        { type: "output" as const, content: "  ████████████ TypeScript    95%" },
-        { type: "output" as const, content: "  ███████████░ JavaScript    90%" },
-        { type: "output" as const, content: "  █████████░░░ Python        75%" },
+        { type: "output" as const, content: "  C, C++, TypeScript, JavaScript" },
         { type: "output" as const, content: "" },
-        { type: "output" as const, content: "FRAMEWORKS:" },
-        { type: "output" as const, content: "  ████████████ React         95%" },
-        { type: "output" as const, content: "  ██████████░░ Node.js       85%" },
-        { type: "output" as const, content: "  █████████░░░ Next.js       75%" },
+        { type: "output" as const, content: "FRONTEND:" },
+        { type: "output" as const, content: "  Next.js, React, Tailwind CSS" },
+        { type: "output" as const, content: "" },
+        { type: "output" as const, content: "BACKEND:" },
+        { type: "output" as const, content: "  Node.js, Express.js, REST APIs" },
+        { type: "output" as const, content: "" },
+        { type: "output" as const, content: "DATABASES:" },
+        { type: "output" as const, content: "  PostgreSQL, MongoDB, Prisma" },
+        { type: "output" as const, content: "" },
+        { type: "output" as const, content: "AI & TOOLS:" },
+        { type: "output" as const, content: "  OpenAI API, LangChain, RAG, Docker, Git" },
       ];
     }
 
@@ -120,14 +131,20 @@ const Terminal = () => {
         { type: "output" as const, content: "║           MY PROJECTS              ║" },
         { type: "output" as const, content: "╚════════════════════════════════════╝" },
         { type: "output" as const, content: "" },
-        { type: "output" as const, content: "[1] TIME MACHINE SIMULATOR" },
-        { type: "output" as const, content: "    A fun project about time travel" },
+        { type: "output" as const, content: "[1] DB NARRATOR" },
+        { type: "output" as const, content: "    Chat with databases using natural" },
+        { type: "output" as const, content: "    language. AI-powered query generation" },
+        { type: "output" as const, content: "    Tech: Next.js, TypeScript, PostgreSQL" },
         { type: "output" as const, content: "" },
-        { type: "output" as const, content: "[2] RETRO ARCADE GAMES" },
-        { type: "output" as const, content: "    Classic games reimagined" },
+        { type: "output" as const, content: "[2] SHOPPR" },
+        { type: "output" as const, content: "    Full-stack e-commerce platform" },
+        { type: "output" as const, content: "    Razorpay payments, JWT auth, emails" },
+        { type: "output" as const, content: "    Tech: React, Node.js, MongoDB" },
         { type: "output" as const, content: "" },
-        { type: "output" as const, content: "[3] AI CHATBOT TERMINAL" },
-        { type: "output" as const, content: "    This very portfolio!" },
+        { type: "output" as const, content: "[3] SOMMAIRE AI" },
+        { type: "output" as const, content: "    AI-powered PDF summarizer" },
+        { type: "output" as const, content: "    Generates reel-style summaries" },
+        { type: "output" as const, content: "    Tech: Next.js, LangChain, OpenAI" },
       ];
     }
 
@@ -137,11 +154,24 @@ const Terminal = () => {
         { type: "output" as const, content: "║         CONTACT INFO               ║" },
         { type: "output" as const, content: "╚════════════════════════════════════╝" },
         { type: "output" as const, content: "" },
-        { type: "output" as const, content: "📧 Email: developer@timemachine.dev" },
-        { type: "output" as const, content: "🐙 GitHub: github.com/developer" },
-        { type: "output" as const, content: "💼 LinkedIn: linkedin.com/in/developer" },
+        { type: "output" as const, content: "📧 Email: anuraghr02@gmail.com" },
+        { type: "output" as const, content: "📱 Phone: +91 70156 69928" },
+        { type: "output" as const, content: "🐙 GitHub: github.com/anurag" },
+        { type: "output" as const, content: "📍 Location: Karnal, Haryana" },
         { type: "output" as const, content: "" },
         { type: "output" as const, content: "Feel free to reach out anytime!" },
+      ];
+    }
+
+    if (trimmedCmd === "resume") {
+      window.open("/resume/anurag_resume.pdf", "_blank");
+      return [
+        { type: "output" as const, content: "╔════════════════════════════════════╗" },
+        { type: "output" as const, content: "║         RESUME DOWNLOAD            ║" },
+        { type: "output" as const, content: "╚════════════════════════════════════╝" },
+        { type: "output" as const, content: "" },
+        { type: "output" as const, content: "Opening resume in a new tab..." },
+        { type: "output" as const, content: "Great Scott! My credentials are ready!" },
       ];
     }
 
